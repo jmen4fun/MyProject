@@ -1,0 +1,188 @@
+*{
+	padding:0; margin:0;
+}
+html{
+	background:#000000 url(images/logo_html.jpg) center top no-repeat; height:100%;
+}
+body{
+	height:auto!important;
+	height:100%;
+	min-height:100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151515+0,151515+100&0+0,0+61,1+72,1+100 */
+background: -moz-linear-gradient(top,  rgba(21,21,21,0) 0%, rgba(21,21,21,0) 800px, rgba(21,21,21,1) 900px, rgba(21,21,21,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(21,21,21,0) 0%,rgba(21,21,21,0) 800px,rgba(21,21,21,1) 900px,rgba(21,21,21,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(21,21,21,0) 0%,rgba(21,21,21,0) 800px,rgba(21,21,21,1) 900px,rgba(21,21,21,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00151515', endColorstr='#151515',GradientType=0 ); /* IE6-9 */
+
+	font-family:Myiraid Pro;
+	line-height:1.5;
+}
+.menu li a{
+		color: #fff; text-decoration: none; padding: 40px 30px; display: block; border-bottom: 5px solid #292929; transition: all 0.2s linear; 
+	}
+		.menu li a:hover{
+			color: #f80211; border-bottom: 5px solid #f80211;
+		}
+img{
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color: #f80211;
+	text-decoration:underline;
+}
+a:focus, a:active {
+	color: #f80211;
+	text-decoration: underline;
+}
+h1,h2,h3,h4,h5{
+	font-weight:normal;
+}
+.karkas{
+	width:1600px; margin:0 auto;
+} 
+	.header{
+		margin:0 0 20px 0;
+	}
+	.logo{
+		margin:80px 0 0 50px;
+	}
+	.menu{ 
+		width:1200px; overflow:hidden; margin:50px 0 0 250px; list-style:none; background:rgba(0,0,0,0.6);
+	}
+		.menu li{
+			float:left; font-size:20px; margin:10px 20px 0 10px; line-height:1;
+		}
+		.menu li:first-child{
+			float:left; font-size:20px; margin:10px 20px 0 0; line-height:1;
+		}
+		.menu li a{
+			color:#f3f3f3; text-decoration:none; text-transform:uppercase; padding:10px 50px 20px 50px; display:block;
+		}
+.content-main{
+	width:1200px; margin:0 0 0 250px; color:#565656; font-size:12px; overflow:hidden; padding:40px;
+}
+.content-main a{
+	color:#777;
+}
+.content-main p{
+	margin-bottom:20px;
+}
+.content-main h1{
+	color:#dbdada; font-size:15; border-bottom:1px solid #dbdbdb; margin-bottom:10px; padding-bottom:5px;
+}
+.content-main h1 a{
+	color:#dbdada;	
+}
+.content-main img{
+	border:2px solid #151515; margin-bottom:20px; display:block;
+}
+.content-main-blocks{
+	overflow:hidden;
+}
+	.content-main-blocks div{
+		float:left; width:277px; margin:0 60px;
+	}
+	.read-more{
+		color:#000!important; background:#444; font-size:9px; font-weight:bold; padding:3px 7px;
+	}
+.footer-wrapper{
+	background:rgba(0,0,0,0.6);
+}
+	.footer-main{
+		width:960px; margin:0 auto; overflow:hidden; padding:10px 0;
+	}
+		.footer-left{
+			float:left;	
+		}
+			.footer-left img{
+				float:left;	
+			}
+			.footer-left p{
+				float:left;	color:#fefcfc; font-size:14; padding:14px 0 0 10px;
+			}
+			.footer-left p a{
+				color:#fefcfc;
+			}
+		.footer-right{
+			float:right; margin:10px 0 0 0;	
+		}  
+			.footer-right img{
+				margin:0 10px;
+			}
+/* Exhibition page */
+
+.ex-place, .ex-date, .ex-buy{
+	padding:0 0 0 35px;
+}
+.ex-place{
+	background:url(images/ex-place.jpg) no-repeat left 50%; 
+}
+.ex-date{
+	background:url(images/ex-date.jpg) no-repeat left 50%;
+}
+.ex-buy{
+	background:url(images/ex-ticket.jpg) no-repeat left 50%;	
+}
+/* About Me page */
+
+.content-left{
+	float:left; width:800px;
+}
+.content-left-portfolio{
+	float:left; width:600px; padding:0 100px;
+}
+.sidebar{
+	float:right; width:300px; padding:40px 20px;
+}
+.aboutphoto{
+	float:left;	margin:0 30px 0 0 !important;
+}
+/* Contact page */
+
+.contact-form{
+	
+}
+	.contact-form p{
+		font-size:17px; color:#565656;
+	}
+	.contact-form label{
+		width:150px; display:block; float:left;	
+	}
+	.contact-form input[type=text]{
+		width:300px; padding:6px 20px; background:rgba(0,0,0,0.6); border:1px solid rgba(0,0,0,0.6); color:#f3f3f3; font-size:15px; border-radius:10px;
+	}
+	.contact-form textarea{
+		width:450px; height:150px; padding:6px 20px; background:rgba(0,0,0,0.6); border:1px solid rgba(0,0,0,0.6); color:#f3f3f3; font-size:15px; border-radius:10px;
+	}
+	input:focus{
+		border:1px solid #484848!important; outline:none;
+	}
+	textarea:focus{
+		border:1px solid #484848!important; outline:none;
+	}
+	.adress, .tell, .Email{
+		padding:0 0 0 30px;
+	}
+	.adress{
+		background:url(images/ex-place.jpg)	0 50% no-repeat;
+	}
+	.tell{
+		background:url(images/contact-phone.jpg) 0 50% no-repeat;
+	}
+	.Email{
+		background:url(images/contact-mail.jpg) 0 50% no-repeat;	
+	}
+	.vk{
+		border:none!important; float:left; padding:0 30px;
+	}
+/* Portfolio page */
+
+.portfolio-img{
+	float:left; margin:0 0 20px 0;
+}
+.portfolio-img:nth-child(2n){
+	float:right;
+}
